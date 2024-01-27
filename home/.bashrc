@@ -1,6 +1,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+PS1='\e[1;36m\]\u\e[1;31m\]@\e[1;32m\]\h:\e[1;35m\]\w\e[1;31m\]\$\e[0m\] '
+PS2='\e[1;31m\]> \e[0m\]'
+
 alias hx='helix'
 alias ls='eza -M@ --git --group-directories-first --smart-group --time-style iso' 
 
