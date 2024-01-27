@@ -1,0 +1,11 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.soft-wrap]
+enable = true
+
+[editor.lsp]
+display-messages = true

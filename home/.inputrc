@@ -1,0 +1,7 @@
+set colored-completion-prefix On
+set colored-stats On
+set editing-mode vi
+set keymap vi
+set mark-symlinked-directories On
+set menu-complete-display-prefix On
+set visible-stats On
