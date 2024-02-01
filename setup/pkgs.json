@@ -40,13 +40,7 @@
     [
       "bash-language-server",
       "lldb",
-      "lua-language-server",
-      "marksman",
-      "pyright",
       "rust-analyzer",
-      "taplo-cli",
-      "vscode-css-languageserver",
-      "vscode-html-languageserver",
       "vscode-json-languageserver"
     ],
     [
