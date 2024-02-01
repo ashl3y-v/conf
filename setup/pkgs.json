@@ -3,7 +3,6 @@
     [
       "base-devel",
       "bash-completion",
-      "eza",
       "helix",
       "man",
       "mold",
