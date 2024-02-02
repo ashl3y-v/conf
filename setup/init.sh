@@ -15,7 +15,7 @@ sudo rm -rf ~/t/paru
 
 paru -S --needed firefox clang leftwm helix dmenu mold jq
 
-paru -Rns awesome slock alacritty nano xterm terminus-font htop
+paru -Rns awesome slock alacritty nano xterm terminus-font htop gnu-free-fonts
 paru -S --needed nvidia-open
 paru -Rns dkms
 
