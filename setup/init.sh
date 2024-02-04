@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ $1 == 0 ]]; then
-sudo pacman -Syyu --needed git base-devel rustup
+sudo pacman -Syyu --needed git base-devel rustup clang mold
 
 rustup default stable
 rustup update

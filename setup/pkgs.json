@@ -20,6 +20,7 @@
   ],
   [
     "lldb",
+    "pyright",
     "rust-analyzer"
   ],
   [
