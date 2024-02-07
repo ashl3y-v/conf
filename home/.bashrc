@@ -30,14 +30,6 @@ copy-home() {
 	cp -af ~/g/conf/home/. ~/
 }
 
-my-pdf-crop() {
-	if [[ $3 == "1" ]]; then
-		pdf-crop-margins $1 -o $2 -s -e -cs -p 0 -a $4
-	else
-		pdf-crop-margins $1 -o $2 -s -cs -p 0 -a $4
-	fi
-}
-
 my-pdf-qual() {
 	local tmp0=$(mktemp)
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ $1 == 0 ]]; then
-sudo pacman -Syyu --needed git base-devel rustup clang mold
+sudo pacman -Syyu --needed git base-devel rustup
 
 rustup default stable
 rustup update
@@ -13,7 +13,7 @@ makepkg -i
 
 sudo rm -rf ~/t/paru
 
-paru -S --needed firefox clang leftwm helix dmenu mold jq
+paru -S --needed firefox leftwm helix dmenu jq
 
 paru -Rns awesome slock alacritty nano xterm terminus-font htop gnu-free-fonts
 paru -S --needed nvidia-open
