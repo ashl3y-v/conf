@@ -121,7 +121,7 @@
         (command: Execute, value: "pactl set-sink-volume @DEFAULT_SINK@ -1%", modifier: ["modkey", "Control"], key: "m"),
         (command: Execute, value: "pactl set-sink-volume @DEFAULT_SINK@ +1%", modifier: ["modkey", "Shift"], key: "m"),
         (command: Execute, value: "pactl set-sink-mute @DEFAULT_SINK@ toggle", modifier: ["modkey", "Control", "Shift"], key: "m"),
-        (command: Execute, value: "maim --select ~/i/screenshot.jpg", modifier: [], key: "Print"),
+        (command: Execute, value: "maim --select ~/t/screenshot.jpg", modifier: [], key: "Print"),
     ],
     state_path: None,
 )
