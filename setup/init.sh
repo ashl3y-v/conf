@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ $1 == 0 ]]; then
-sudo pacman -Syyu --needed git base-devel rustup
+sudo pacman -Syyu --needed --noconfirm git base-devel rustup
 
 rustup default stable
 rustup update
@@ -13,11 +13,11 @@ makepkg -i
 
 sudo rm -rf ~/t/paru
 
-paru -S --needed firefox leftwm helix dmenu jq
+paru -S --needed --noconfirm firefox leftwm helix dmenu jq
 
-paru -Rns awesome slock alacritty nano xterm terminus-font htop gnu-free-fonts
-paru -S --needed nvidia-open
-paru -Rns dkms
+paru -Rns --noconfirm awesome slock alacritty nano xterm terminus-font htop gnu-free-fonts
+paru -S --needed --noconfirm nvidia-open
+paru -Rns --noconfirm dkms
 
 sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
 chmod u+x ~/.xinitrc
