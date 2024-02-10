@@ -1,7 +1,8 @@
 [
   [
     "pacman-contrib",
-    "parallel"
+    "parallel",
+    "xorg-xsetroot"
   ],
   [
     "bash-completion",

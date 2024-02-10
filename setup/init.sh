@@ -13,7 +13,7 @@ makepkg -i
 
 sudo rm -rf ~/t/paru
 
-paru -S --needed --noconfirm firefox helix jq
+paru -S --needed --noconfirm firefox helix jq feh
 
 paru -S --needed --noconfirm nvidia-open
 
