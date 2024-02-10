@@ -1,6 +1,5 @@
 [
   [
-    "base-devel",
     "pacman-contrib",
     "parallel"
   ],
@@ -23,13 +22,10 @@
     "rust-analyzer"
   ],
   [
-    "ttf-jetbrains-mono",
     "wezterm",
     "xdg-user-dirs"
   ],
   [
-    "dmenu",
-    "firefox",
     "maim"
   ],
   [

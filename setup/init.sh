@@ -13,15 +13,9 @@ makepkg -i
 
 sudo rm -rf ~/t/paru
 
-paru -S --needed --noconfirm firefox leftwm helix dmenu jq
+paru -S --needed --noconfirm firefox helix jq
 
-paru -Rns --noconfirm awesome slock alacritty nano xterm terminus-font htop gnu-free-fonts ttf-liberation
 paru -S --needed --noconfirm nvidia-open
-paru -Rns --noconfirm dkms
-
-sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
-chmod u+x ~/.xinitrc
-vim ~/.xinitrc
 
 sudo vim /etc/ssh/sshd_config
 sudo systemctl daemon-reload
