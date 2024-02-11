@@ -12,4 +12,5 @@ bspc config window_gap 0
 
 source ~/.config/bspwm/monitors.sh
 
+xsetroot -cursor_name left_ptr &
 xsetroot -solid "#282828" &
