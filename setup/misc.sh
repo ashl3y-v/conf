@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-if [[ $1 == 0 ]]; then
+#!/bin/sh
 sudo systemctl enable systemd-oomd.service
 sudo systemctl enable tor
 sudo systemctl enable sshd
@@ -14,4 +13,3 @@ mkdir ~/.local/state/mpd
 
 systemctl --user enable mpd
 systemctl --user start mpd
-fi
