@@ -7,7 +7,7 @@ if wezterm.config_builder then
 end
 
 config.font = wezterm.font("JetBrains Mono")
-config.font_size = 9
+config.font_size = 8
 
 config.default_prog = { "bash" }
 
@@ -18,7 +18,7 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.warn_about_missing_glyphs = false
 config.window_frame = {
-  font_size = 9
+  font_size = 8
 }
 config.colors = {
   tab_bar = {
