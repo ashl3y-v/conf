@@ -7,18 +7,18 @@ if wezterm.config_builder then
 end
 
 config.font = wezterm.font("JetBrains Mono")
-config.font_size = 8
+config.font_size = 7.5
 
 config.default_prog = { "bash" }
 
-config.color_scheme = "Gruvbox Dark (Gogh)"
+config.color_scheme = "GruvboxDark"
 
 config.hide_tab_bar_if_only_one_tab = true
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.warn_about_missing_glyphs = false
 config.window_frame = {
-  font_size = 8
+  font_size = 7.5
 }
 config.colors = {
   tab_bar = {
