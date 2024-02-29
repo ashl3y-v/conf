@@ -1,10 +1,5 @@
 [
   [
-    "pacman-contrib",
-    "parallel",
-    "xorg-xsetroot"
-  ],
-  [
     "bash-completion",
     "helix",
     "man"
@@ -24,7 +19,8 @@
   ],
   [
     "wezterm",
-    "xdg-user-dirs"
+    "xdg-user-dirs",
+    "xorg-xsetroot"
   ],
   [
     "maim"
