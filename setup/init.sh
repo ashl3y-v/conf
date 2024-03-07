@@ -12,7 +12,7 @@ makepkg -i
 
 sudo rm -rf ~/t/paru
 
-paru -S --needed --noconfirm firefox helix jq nvidia-open
+paru -S --needed --noconfirm firefox helix jq
 
 sudo vim /etc/ssh/sshd_config
 sudo systemctl daemon-reload
