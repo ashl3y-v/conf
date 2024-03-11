@@ -18,7 +18,7 @@
     "rust-analyzer"
   ],
   [
-    "wezterm",
+    "kitty",
     "xdg-user-dirs",
     "xorg-xsetroot"
   ],
