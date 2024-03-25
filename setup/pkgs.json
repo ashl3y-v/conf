@@ -2,10 +2,9 @@
   [
     "bash-completion",
     "helix",
-    "man"
+    "man-db"
   ],
   [
-    "btop",
     "jq"
   ],
   [
@@ -13,7 +12,6 @@
     "python-pip"
   ],
   [
-    "lldb",
     "pyright",
     "rust-analyzer"
   ],
