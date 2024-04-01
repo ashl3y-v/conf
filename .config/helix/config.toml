@@ -3,9 +3,10 @@ theme = "gruvbox"
 [editor]
 line-number = "relative"
 mouse = false
+color-modes = true
+
+[editor.indent-guides]
+render = true
 
 [editor.soft-wrap]
 enable = true
-
-[editor.lsp]
-display-messages = true
