@@ -3,7 +3,6 @@ theme = "gruvbox"
 [editor]
 line-number = "relative"
 mouse = false
-color-modes = true
 
 [editor.indent-guides]
 render = true
