@@ -35,11 +35,7 @@
     "mpv"
   ],
   [
-    "texlab",
-    "texlive-binextra",
-    "texlive-latexextra",
-    "texlive-luatex",
-    "texlive-mathscience"
+    "typst",
   ],
   [
     "qbittorrent",
