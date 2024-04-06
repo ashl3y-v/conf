@@ -1,16 +1,3 @@
-[language-server]
-typst-lsp = { command = "typst-lsp" }
-
-[[language]]
-name = "typst"
-scope = "source.typst"
-injection-regex = "typst"
-file-types = ["typst", "typ"]
-comment-token = "//"
-language-servers = ["typst-lsp"]
-indent = { tab-width = 2, unit = "  " }
-roots = []
-
 [[language]]
 name = "python"
 language-servers = ["pyright"]

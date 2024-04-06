@@ -4,7 +4,7 @@ sudo pacman -Syyu --needed --noconfirm git base-devel rustup
 rustup default stable
 rustup update
 
-mkdir -p ~/g/ ~/n/ ~/t/ ~/.ssh/ ~/.ssh/sockets/
+mkdir -p ~/g/ ~/n/ ~/.ssh/ ~/.ssh/sockets/
 cd ~/t
 git clone https://aur.archlinux.org/paru.git
 cd paru
