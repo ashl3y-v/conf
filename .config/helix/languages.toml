@@ -1,6 +1,3 @@
-[language-server.typst-lsp]
-config = { exportPdf = "never" }
-
 [[language]]
 name = "python"
 language-servers = ["pyright"]
