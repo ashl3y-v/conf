@@ -17,7 +17,7 @@
     "rust-analyzer"
   ],
   [
-    "kitty",
+    "wezterm",
     "xdg-user-dirs",
     "xorg-xsetroot"
   ],
@@ -36,7 +36,7 @@
     "mpv"
   ],
   [
-    "typst",
+    "typst"
   ],
   [
     "qbittorrent",
