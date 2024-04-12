@@ -5,7 +5,6 @@ set editing-mode vi
 set keymap vi
 set mark-symlinked-directories on
 set menu-complete-display-prefix on
-set page-completions off
 set show-all-if-ambiguous on
 set show-all-if-unmodified on
 set skip-completed-text on
