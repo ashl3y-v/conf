@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
 
-config.font = wezterm.font("Fira Code")
+config.font = wezterm.font("JetBrains Mono")
 config.font_size = 7.25
 
 config.default_prog = { "bash" }
