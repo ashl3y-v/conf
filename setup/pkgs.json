@@ -14,10 +14,6 @@
     "python-pip"
   ],
   [
-    "pyright",
-    "rust-analyzer"
-  ],
-  [
     "wezterm",
     "xdg-user-dirs",
     "xorg-xsetroot"
