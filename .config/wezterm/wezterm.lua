@@ -4,7 +4,7 @@ local config = wezterm.config_builder()
 
 config.font = wezterm.font {
   family = "JetBrains Mono",
-  harfbuzz_features = { "cv06=1", "cv14=1", "cv15=1" }
+  harfbuzz_features = { "cv14=1", "cv15=1" }
 }
 
 config.font_size = 7.25
