@@ -5,3 +5,13 @@ config = { exportPdf = "never" }
 name = "python"
 language-servers = ["pyright"]
 formatter = { command = "black", args = ["--quiet", "-"] }
+
+[[language]]
+name = "lean"
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'⟨' = '⟩'
