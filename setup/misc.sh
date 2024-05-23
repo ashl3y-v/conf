@@ -7,9 +7,3 @@ git config --global fetch.prune true
 git config --global pull.rebase true
 
 xdg-mime default org.pwmt.zathura.desktop application/pdf
-
-mkdir ~/.config/mpd/playlists
-mkdir ~/.local/state/mpd
-
-systemctl --user enable mpd
-systemctl --user start mpd
