@@ -1,0 +1,13 @@
+import = [
+  "~/.config/alacritty/gruvbox_dark.toml"
+]
+
+[window]
+decorations = "None"
+
+[font]
+normal = { family = "JetBrains Mono NL" }
+size = 7.25
+
+[mouse]
+hide_when_typing = true

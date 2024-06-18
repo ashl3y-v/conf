@@ -12,7 +12,7 @@ makepkg -i
 
 sudo rm -rf ~/n/paru
 
-paru -S --needed --noconfirm firefox helix jq
+paru -S --needed --noconfirm firefox helix
 
 sudo helix /etc/ssh/sshd_config
 sudo systemctl daemon-reload

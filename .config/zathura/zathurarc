@@ -1,5 +1,5 @@
 set database                "sqlite"
-set font                    "JetBrains Mono 10"
+set font                    "JetBrains Mono NL 9"
 set recolor                 "true"
 set recolor-keephue         "true"
 set selection-clipboard     "clipboard"
