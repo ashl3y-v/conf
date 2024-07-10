@@ -2,6 +2,9 @@ import = [
   "~/.config/alacritty/gruvbox_dark.toml"
 ]
 
+# [shell]
+# program = "tmux"
+
 [window]
 decorations = "None"
 
