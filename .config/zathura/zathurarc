@@ -1,11 +1,13 @@
 set database                "sqlite"
-set font                    "JetBrains Mono NL 9"
-set recolor                 "true"
-set recolor-keephue         "true"
+set font                    "JetBrains Mono NL 9.25"
+set recolor                 true
+set recolor-keephue         true
+set render-loading          false
+set scroll-wrap             true
 set selection-clipboard     "clipboard"
-set selection-notification  "false"
-set statusbar-home-tilde    "true"
-set window-title-home-tilde "true"
+set selection-notification  false
+set statusbar-home-tilde    true
+set window-title-home-tilde true
 
 set completion-bg           "#504945" # bg2
 set completion-fg           "#ebdbb2" # fg
