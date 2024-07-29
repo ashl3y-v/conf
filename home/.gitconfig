@@ -1,0 +1,7 @@
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[user]
+	email = ashley.eva.vaughn@gmail.com
+	name = Ashley Vaughn
