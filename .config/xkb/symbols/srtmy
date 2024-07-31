@@ -24,6 +24,9 @@ xkb_symbols "syms" {
     key <AD11>	{[ equal, plus ]};
     key <AD12>	{[ underscore, minus ]};
     key <BKSL>	{[ bar, backslash ]};
+
+    key <AB08>	{[   period,	 less		]};
+    key <AB09>	{[  comma,	 greater	]};
 };
 
 partial alphanumeric_keys
