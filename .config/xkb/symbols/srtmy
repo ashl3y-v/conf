@@ -18,33 +18,29 @@ partial alphanumeric_keys
 xkb_symbols "syms" {
     name[Group1]= "srtmy symbols (US)";
 
-    key <TLDE>	{[ asciitilde, grave ]};
     key <AE11>	{[ braceleft, bracketleft ]};
     key <AE12>	{[ braceright, bracketright ]};
 
     key <AD11>	{[ equal, plus ]};
-    key <AD12>	{[ minus, underscore ]};
+    key <AD12>	{[ underscore, minus ]};
     key <BKSL>	{[ bar, backslash ]};
-
-    key <AB08>	{[ period, greater ]};
-    key <AB09>	{[ comma, less ]};
 };
 
 partial alphanumeric_keys
-xkb_symbols "qwerty_syms" {
+xkb_symbols "basic_syms" {
     include "us(basic)"
     include "srtmy(syms)"
 
-    name[Group1]= "qwerty with srtmy symbols (US)";
+    name[Group1]= "basic with srtmy symbols (US)";
 };
 
 partial alphanumeric_keys
-xkb_symbols "qwerty_numflip_syms" {
+xkb_symbols "basic_numflip_syms" {
     include "us(basic)"
     include "srtmy(syms)"
     include "srtmy(numflip)"
 
-    name[Group1]= "qwerty with srtmy numflip and symbols (US)";
+    name[Group1]= "basic with srtmy numflip and symbols (US)";
 };
 
 // srtmy letters and move ;
@@ -95,7 +91,7 @@ xkb_symbols "srtmy_numflip" {
 };
 
 // srtmy letters and symbol changes
-partial alphanumeric_keys
+default partial alphanumeric_keys
 xkb_symbols "srtmy_syms" {
     include "srtmy(srtmy)"
     include "srtmy(syms)"
@@ -103,10 +99,11 @@ xkb_symbols "srtmy_syms" {
     name[Group1]= "srtmy layout and symbols (US)";
 };
 
-default partial alphanumeric_keys
+partial alphanumeric_keys
 xkb_symbols "srtmy_numflip_syms" {
     include "srtmy(srtmy)"
-    include "srtmy(numflip_syms)"
+    include "srtmy(numflip)"
+    include "srtmy(syms)"
 
-    name[Group1]= "srtmy layout and numflip symbols (US)";
+    name[Group1]= "srtmy layout with numflip and symbols (US)";
 };
