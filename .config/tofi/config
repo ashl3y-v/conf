@@ -1,0 +1,19 @@
+anchor = top
+width = 100%
+height = 1%
+horizontal = true
+font = /usr/share/fonts/TTF/JetBrainsMonoNL-Regular.ttf
+font-size = 8.25
+outline-width = 0
+border-width = 0
+min-input-width = 16
+result-spacing = 16
+padding-top = 0
+padding-bottom = 0
+padding-left = 0
+padding-right = 0
+
+text-color       = #ebdbb2
+prompt-color     = #fabd2f
+selection-color  = #b8bb26
+background-color = #282828
