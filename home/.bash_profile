@@ -1,1 +1,1 @@
-export EDITOR=helix
+export EDITOR=hx

@@ -11,7 +11,7 @@ xkb_symbols "srtmy" {
     key <AD05>	{[ w, W ]};
     key <AD06>	{[ q, Q ]};
     key <AD07>	{[ b, B ]};
-    key <AD08>	{[ o, O ]};
+    key <AD08>	{[ a, A ]};
     key <AD09>	{[ u, U ]};
     key <AD10>	{[ semicolon, colon ]};
 
@@ -20,9 +20,9 @@ xkb_symbols "srtmy" {
     key <AC03>	{[ t, T ]};
     key <AC04>	{[ m, M ]};
     key <AC05>	{[ y, Y ]};
-    key <AC06>	{[ p, P ]};
+    key <AC06>	{[ f, F ]};
     key <AC07>	{[ n, N ]};
-    key <AC08>	{[ a, A ]};
+    key <AC08>	{[ o, O ]};
     key <AC09>	{[ i, I ]};
     key <AC10>	{[ e, E ]};
 
@@ -31,6 +31,6 @@ xkb_symbols "srtmy" {
     key <AB03>	{[ k, K ]};
     key <AB04>	{[ c, C ]};
     key <AB05>	{[ v, V ]};
-    key <AB06>	{[ f, F ]};
+    key <AB06>	{[ p, P ]};
     key <AB07>	{[ h, H ]};
 };

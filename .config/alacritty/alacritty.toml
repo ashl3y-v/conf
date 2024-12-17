@@ -1,16 +1,17 @@
+[general]
 import = [
-  "~/.config/alacritty/gruvbox_dark.toml"
+  "~/.config/alacritty/font_size.toml",
+  "~/.config/alacritty/monokai_pro.toml"
 ]
 
-[shell]
+[terminal.shell]
 program = "zellij"
 
 [window]
 decorations = "None"
 
 [font]
-normal = { family = "JetBrains Mono NL" }
-size = 7.25
+normal = { family = "JetBrains Mono" }
 
 [mouse]
 hide_when_typing = true

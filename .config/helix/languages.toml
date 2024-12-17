@@ -1,7 +1,12 @@
-[language-server.typst-lsp]
-config = { exportPdf = "never" }
+[language-server.lean]
+args = [ "--server" ]
 
 [[language]]
-name = "python"
-language-servers = ["pyright"]
-formatter = { command = "black", args = ["--quiet", "-"] }
+name = "sml"
+indent = { tab-width = 2, unit = "  " }
+
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'

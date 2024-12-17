@@ -1,7 +1,22 @@
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+    dark = true
+
+[merge]
+    conflictstyle = zdiff3
+
 [fetch]
 	prune = true
+
 [pull]
 	rebase = true
+
 [user]
 	email = ashley.eva.vaughn@gmail.com
 	name = Ashley Vaughn
