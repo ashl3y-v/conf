@@ -13,7 +13,7 @@ padding-bottom = 0
 padding-left = 0
 padding-right = 0
 
-text-color       = #fcfcfa
-prompt-color     = #ff6188
-selection-color  = #a9dc76
-background-color = #2d2a2e
+text-color       = #ebdbb2
+prompt-color     = #fabd2f
+selection-color  = #b8bb26
+background-color = #282828

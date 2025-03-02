@@ -1,7 +1,7 @@
 [general]
 import = [
   "~/.config/alacritty/font_size.toml",
-  "~/.config/alacritty/monokai_pro.toml"
+  "~/.config/alacritty/gruvbox_dark.toml"
 ]
 
 [terminal.shell]
